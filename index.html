@@ -16,7 +16,7 @@
 
 <body>
   <header class="header">
-    <img src="https://themesflat.co/html/jobtex/images/logo-white.png" alt="logo" class="logo" />
+    <img src="https://themesflat.co/html/jobtex/images/logo-white.png" alt="logo" class="logo" id="main-logo" />
 
     <nav class="navbar">
       <ul class="navbar-list">
@@ -49,9 +49,9 @@
     </div>
     <div class="first-second-div">
       <div class="random3">
-        <input type="search" placeholder="Search by Location, Title or Type" class="search-space" id="search1" onk></div>
+        <input type="search" placeholder="Search by Location, Title or Type" class="search-space" id="search1"></div>
         <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
-      <button class="search-btn" id="search-btn1" onclick="jobfunction()">Search</button>
+      <button class="search-btn" id="search-btn1" onclick="jobfunction1()">Search</button>
     </div>
   </div>
   </div>
@@ -83,14 +83,14 @@
     </div>
   </div>
   <div class="third-div" id="third-div" data-aos="slide-right"  data-aos-duration="5000"  data-aos-once="true" data-aos-delay="200"> 
-    <input type="search" placeholder="Search by Location, Title or Type" class="search-space" id="search-space">
-    <button class="search-btn" id="search-btn">Search</button>
+    <input type="search" placeholder="Search by Location, Title or Type" class="search-space" id="search2">
+    <button class="search-btn" id="search2">Search</button>
 
   </div>
   <div class="select" id="selectTitle">
     <label for="Title">Choose a Title</label>
-    <select name="titles" id="select" form="titleform"  onchange="getSelectedValue();" id="titles">
-      <option value="time">All</option>
+    <select name="titles" form="titleform"  onchange="getSelectedValue();"  id="select" >
+      <option value="All">All</option>
       <option value="Website Developer">Web Developer</option>
       <option value="Application Developer">App Developer</option>
       <option value="Designer">Designer</option>
@@ -120,8 +120,7 @@
       </div>
     </div>
     -->
-  </div>
-
+</div>
 
   <div class="fifth-div" >
     <div class="heading" id="our-partners">
@@ -130,7 +129,7 @@
     </div>
     <div class="fifth-boxes">
       <div class="first-fifth-div">
-        <img src="https://raw.githubusercontent.com/Ritikchandra/dvmTask1/main/images/logo-google.svg" alt="logo" width="120px" height="120px">
+        <img src="/images/logo-google.svg" alt="logo" width="120px" height="120px">
         <figcaption>Google</figcaption>
       </div>
       <div class="first-fifth-div">
