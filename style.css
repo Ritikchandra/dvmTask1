@@ -554,6 +554,11 @@ footer a{
    footer{
     overflow: inherit;
    }
+   #main-logo{
+    width: 50%;
+    height: 50%;
+   }
+
 }
 @media (max-width: 35em) {
     .bhanu-photo{
@@ -648,4 +653,7 @@ select{
     border: none;
     box-shadow: 3px 3px salmon;
     padding:5rem ;
+ }
+ .hide{
+    display: none;
  }
