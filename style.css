@@ -370,8 +370,8 @@ body {
 .first-fourth-div-logo{
     /* border: 2px solid purple; */
     display: inline-block;
-    width: 20%;
-    
+    min-width: 30%;
+    max-width:100px;
 }
 .random2{
     border-bottom: 1px solid black;
