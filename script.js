@@ -116,7 +116,7 @@ var array = [
     country: 'india',
     title: 'frontend development',
     skills: 'html,css, javascript, react js',
-    image: "/images/logo-google.svg",
+    image: "images/logo-google.svg",
     type:'fulltime, full-time'
   },
   {
@@ -125,7 +125,7 @@ var array = [
     country: 'usa , united states of america' ,
     title: 'backend development',
     skills: 'dsa, php, sql, java',
-    image: "/images/logo-twitter.svg",
+    image: "images/logo-twitter.svg",
     type:'fulltime, full-time'
   },
   {
